@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link href="styles.css" rel="stylesheet">
+    <title>Federico Keller</title>
+</head>
+<body>
+        <header id="header" class="header">
+            <div class="navigation">
+                <nav class="navigation__nav">
+                    <ul class="navigation__list">
+                        <li class="navigation__item navigation__item--logo"> 
+                            Federico&lt;\&gt;Keller
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#about-me">
+                                Sobre mí
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#experience">
+                                Experiencia
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#abilities">
+                                Habilidades
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#projects">
+                                Proyectos
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#contact">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__block header__block--right">
+                <h3 class="heading-secondary header__tag">
+                    <em>
+                        Desarrollador Frontend
+                    </em>
+                </h3>
+                <h1 class="heading-primary header__subtitle">
+                   Creando experiencias web para el deleite de mis clientes.
+                </h1>
+              <a class="btn btn--navigation" href="#contact">Contacto &rarr;</a>  
+            </div>
+            <div class="header__block header__block--left">
+                <img class="img img--programmer" src="./assets/img/programmer.svg" alt="Federico Christian Keller">
+            </div>
+        </header>
+    
+        <section id="about-me" class="about-me">
+            <h2 class="about-me--title">
+                Sobre mí
+            </h2>
+            
+            <p class="about-me--content">
+                Desde que tengo memoria siempre tuve un fervor por aprender nuevas cosas, y como tal como dice Thomás Huxley,
+                <blockquote>Intenta aprender algo sobre todo y todo sobre algo.</blockquote> Sin embargo, el año 2014 marcó un
+                antes y un después en mi tanto en mi vida personal como en mi futuro profesional, en donde encontré mi verdadera pasión. Ese año ingrese a la Escuela Técnica N°36: "Alte. Guillermo Brown",
+                en donde se me formó en el arte de la programación y en lo que se requiere para entrar al mundo laboral. Así, en los 
+                últimos 2 años, participé en los procesos productivos de distintas empresas.
+            </p>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2 class="experience--title">
+                Experiencia
+            </h2>
+
+            <table>
+                <tr>
+                    <th>Empresa</th>
+                    <th>Tareas</th>
+                    <th>Tiempo</th>
+                </tr>
+                <tr>
+                    <td>Dinator</td>
+                    <td>Acá empezó mi camino, en donde aprendí sobre <em>Angular</em> y se me formó sobre la importancia de la metrología en nuestro día a día.</td>
+                    <td>1 año</td>
+                </tr>
+                <tr>
+                    <td>
+                        COTO CICSA
+                    </td>
+                    <td>
+                        Luego llegué a COTO CICSA, en donde desarrollé cosas mas complejas y aprendí a desenvolverme en un grupo más numeroso. 
+                    </td>
+                    <td>
+                        8 meses
+                    </td>
+                </tr>
+                <tr>
+                    <td>AtomChat</td>
+                    <td>
+                        Finalmente, este año empecé en AtomChat, en donde tengo más autonomía y se me concedieron más libertades, así como también, más responsabilidades.   
+                    </td>
+                    <td>4 meses</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="abilities" class="abilities">
+            <h2>Habilidades</h2>
+                    <ol>
+                        <li><strong>Angular</strong>: Con una proficiencia media, me tocó resolver muchos problemas utilizando este framework.</li>
+                        <li><strong>Node.js</strong>: Con un poco menos de experiencia, es mi herramienta de preferencia para trabajar soluciones en el BackEnd.</li>
+                    </ol>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="projects__title">Proyectos</h2>
+            <p>En mi tiempo libre me gusta desarrollar y refinar mis hablilidades, entré los que podemos encontrar:</p>
+            <figure class="project project--first">
+                <a href="https://time-tracking-xi.vercel.app/login" target="_blank">
+                    <img class="img img--project" src="./assets/img/proyecto1.PNG" alt="DashSmart">
+                </a>
+                <figcaption class="project__description">Proyecto creado para descubir los desafíos, así como los pros y los contras, de crear un sistema de autenticación propio.</figcaption>
+            </figure>
+
+            <figure class="project project--second">
+                <a href="https://faq-accordion-css-only.vercel.app/" target="_blank">
+                    <img class="img img--project" src="./assets/img/proyecto2.PNG" alt="DashSmart">
+                </a>
+                <figcaption class="project__description">Proyecto creado para refinar mis habilidades con CSS</figcaption>
+            </figure>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact__form">
+                <form class="form" action="#">
+                    <div class="contact__heading">
+                        <h2 class="contact__header">
+                            Contacto
+                        </h2>
+                    </div>
+                  <div class="form__control">
+                    <input class="form__input" type="text" placeholder="Nombre" id="name" name="name">
+                    <label class="form__label" for="name">Nombre</label>
+                  </div>
+
+                  <div class="form__control">
+                    <input class="form__input" type="text" placeholder="E-mail" id="email" email="email">
+                    <label class="form__label" for="email">E-mail</label>
+                  </div>
+              
+                  <div class="form__control">
+                    <textarea rows="5" class="form__input" id="message" placeholder="Mensaje" name="message"></textarea>
+                    <label class="form__label" for="message">Mensaje</label>
+                  </div>
+              
+                  <button type="submit" class="btn btn--submit">Enviar</button>
+              
+                </form>
+              </div>
+        </section>
+        <br>
+        <footer class="footer">
+            <h4>Redes sociales</h4>
+            <div>
+                <a class="btn btn--social" href="https://ar.linkedin.com/in/federico-keller" target="_blank">
+                    LinkedIn
+                </a>
+            </div>
+
+            <div>
+                <a class="btn btn--social" href="https://twitter.com/mrfedek" target="_blank">
+                    Twitter
+                </a>
+            </div>
+        </footer>
+</body>
+</html>
