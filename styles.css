@@ -19,7 +19,7 @@ html {
 
 body {
     font-family: "Poppins", sans-serif;
-    padding: 25px;
+    padding: 60px;
     min-height: 100vh;
 }
 
@@ -42,7 +42,7 @@ ul li {
 }
 
 section {
-    margin: 40px 0;
+    margin: 75px 0;
 }
 
 .navigation__item {
@@ -63,6 +63,7 @@ padding: 27px;
 
 table {
   border-collapse: collapse;
+  width: 100%;
   padding: 10px;
 }
 
@@ -157,22 +158,28 @@ text-decoration: none;
 }
 
 .project {
-    display: inline-block;
-    width: 400px;
+    width: 540px;
+    margin: 35px auto;
 }
 
-.project--first {
-    margin-left: 150px;
-}
 
 .project__description {
     font-size: 10px;
     text-align: center;
 }
 
+.experience--title::after {
+    content: "Experiencia";
+}
+
 #contact {
     background-color: var(--color-purple);
     padding: 40px;
+}
+
+.contact__form {
+    max-width: 525px;
+    margin: 0 auto;
 }
 
 .form__input {
