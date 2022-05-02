@@ -10,6 +10,8 @@
     --color-purple: #6C63FF;
     --color-blue: #3600dd;
     --color-light-blue: #3600ddba;
+    --color-soft-violet: #af67e9;
+    --color-soft-blue: #6565e7;
     --color-invalid: #e59b9f;
 }
 
@@ -55,7 +57,7 @@ section {
 }
 
 #header {
-background: var(--color-purple);
+background: linear-gradient(var(--color-soft-violet), var(--color-soft-blue));
 min-height: 100%;
 padding: 27px;
 }
@@ -171,7 +173,8 @@ text-decoration: none;
 }
 
 #contact {
-    background-color: var(--color-purple);
+    background: linear-gradient(var(--color-soft-violet), var(--color-soft-blue));
+
     padding: 40px;
 }
 
